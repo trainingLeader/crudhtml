@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1 >Registro de Paises</h1>
+        <form id="frmDataCountry">
+              Nombre del Pais
+              <input type="text" name="name_country">
+              <select id="miDropdown"></select>
+              <input type="submit" value="Enviar">
+              <br>
+              Lenguajes de interes
+              <label><input type="checkbox" name="opcion1" value="Python">Python</label>
+              <label><input type="checkbox" name="opcion2" value="JS">JS</label>
+              <label><input type="checkbox" name="opcion3" value="Java">Java</label>
+              <button type="button" onclick="VerSeleccionado()">Obtener Seleccionados</button>
+              <br><br>
+              <fieldset id="ciudadesCheckboxGroup">
+                <!-- La lista de checkboxes se agregará aquí dinámicamente -->
+              </fieldset>
+            </form>
+        <pre></pre>  
+      </section>
+</body>
+</html>
